@@ -74,7 +74,7 @@ final class IslandPanelController {
         panel.hasShadow = false
         panel.level = .statusBar
         panel.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary, .stationary]
-        panel.isMovableByWindowBackground = false
+        panel.isMovableByWindowBackground = true
         panel.hidesOnDeactivate = false
         panel.contentView = NSHostingView(rootView: IslandView(model: model))
 
