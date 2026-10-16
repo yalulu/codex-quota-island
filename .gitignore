@@ -1,0 +1,18 @@
+# Swift build outputs and macOS user files
+.build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+.DS_Store
+
+# Local credentials, logs and generated app bundles
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.p12
+*.mobileprovision
+secrets/
+*.app/

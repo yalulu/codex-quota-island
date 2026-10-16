@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.wyn.codex-quota-island</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Applications/Codex 额度精灵岛.app/Contents/MacOS/CodexQuotaIsland</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/codex-quota-island.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/codex-quota-island.err.log</string>
+</dict>
+</plist>

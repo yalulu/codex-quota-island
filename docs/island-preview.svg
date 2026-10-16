@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Codex 额度精灵岛界面预览</title>
+  <desc id="desc">深色 macOS 桌面背景上的顶部胶囊，展示 Codex 5 小时与一周额度。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0d1628"/><stop offset="0.55" stop-color="#172446"/><stop offset="1" stop-color="#080d19"/></linearGradient>
+    <linearGradient id="pill" x1="0" x2="1"><stop stop-color="#050609"/><stop offset="1" stop-color="#151822"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="200%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.55"/></filter>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <circle cx="1060" cy="130" r="250" fill="#39d8cf" fill-opacity="0.08"/><circle cx="120" cy="620" r="290" fill="#8a70ff" fill-opacity="0.09"/>
+  <rect x="0" y="0" width="1200" height="42" fill="#0a0f1a" fill-opacity="0.76"/>
+  <circle cx="28" cy="21" r="5" fill="#ff5f57"/><circle cx="46" cy="21" r="5" fill="#febc2e"/><circle cx="64" cy="21" r="5" fill="#28c840"/>
+  <text x="600" y="27" fill="#c9d2df" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" text-anchor="middle">Codex 额度精灵岛</text>
+  <g filter="url(#shadow)">
+    <rect x="357" y="71" width="486" height="76" rx="38" fill="url(#pill)" stroke="#ffffff" stroke-opacity="0.16"/>
+    <path d="M408 91l-13 22h11l-4 15 16-24h-11z" fill="#43e1d6"/><text x="438" y="118" fill="#f5f7fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20" font-weight="700">Codex</text>
+    <path d="M517 88v42" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="548" y="105" fill="#9ba7b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">5 小时</text><text x="548" y="125" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700">剩余 64%</text>
+    <text x="665" y="105" fill="#9ba7b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">1 周</text><text x="665" y="125" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700">剩余 76%</text>
+    <circle cx="799" cy="109" r="5" fill="#45d987"/>
+  </g>
+  <text x="600" y="265" fill="#f2f5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="34" font-weight="700" text-anchor="middle">看见额度，再切换工作流</text>
+  <text x="600" y="306" fill="#a7b4c8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" text-anchor="middle">5 小时与一周额度常驻可见；低于 10% 时以红色与本机通知提醒。</text>
+  <g transform="translate(270 390)">
+    <rect width="660" height="144" rx="22" fill="#111b30" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="55" cy="54" r="24" fill="#43e1d6" fill-opacity="0.15"/><path d="M59 35L43 62h13l-5 18 20-29H57z" fill="#43e1d6"/>
+    <text x="98" y="53" fill="#f2f5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700">低干扰常驻显示</text><text x="98" y="81" fill="#9ba7b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15">不抢焦点，不读取对话，不改变模型配置。</text>
+    <path d="M331 24v96" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="386" cy="54" r="24" fill="#ff5252" fill-opacity="0.14"/><path d="M386 39v19m0 12v1" stroke="#ff6a6a" stroke-width="4" stroke-linecap="round"/>
+    <text x="429" y="53" fill="#f2f5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700">≤10% 醒目提醒</text><text x="429" y="81" fill="#9ba7b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15">红色胶囊、脉冲强调、macOS 本机通知。</text>
+  </g>
+</svg>
